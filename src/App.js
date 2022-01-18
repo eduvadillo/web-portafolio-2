@@ -40,7 +40,7 @@ function App() {
     addEventListeners();
     handleLinkHoverEvents();
     return () => removeEventListeners();
-  }, []);
+  }, [position]);
 
   const addEventListeners = () => {
     document.addEventListener("mousemove", onMouseMove);
@@ -148,8 +148,6 @@ function App() {
 
       setTimeout(() => {
         setProjects(true);
-        setNone(true);
-        setMouse(true);
       }, 1000);
     }
 
@@ -159,8 +157,6 @@ function App() {
         setViewSection(`view-section`);
         setProjects(false);
         setProjectClassDiv(`projects-div`);
-        setNone(false);
-        setMouse(false);
       }, 1100);
     }
 
@@ -168,8 +164,6 @@ function App() {
       setViewSection(`no-section`);
       setTimeout(() => {
         setProjects(true);
-        setNone(true);
-        setMouse(true);
       }, 1000);
     }
   };
@@ -374,7 +368,7 @@ function App() {
                 <a href='#projects'>
                   <GrProjects
                     size={30}
-                    className='mouseIsOver projectIcon'
+                    className='mouseIsOver projectIcon cursor-link'
                     onClick={handleProjects}
                   />
                 </a>
@@ -533,7 +527,11 @@ function App() {
             <div id='projects' className={projectClassDiv}>
               <div className='left'>
                 {" "}
-                <BsChevronDoubleLeft size={30} onClick={handleBeforeProjects} />
+                <BsChevronDoubleLeft
+                  size={30}
+                  className='mouseIsOver'
+                  onClick={handleBeforeProjects}
+                />
               </div>
               <div className='central'>
                 {" "}
@@ -558,11 +556,15 @@ function App() {
               <div className='right'>
                 {" "}
                 <BsChevronDoubleLeft
-                  className='left-icon'
+                  className='left-icon mouseIsOVer'
                   size={30}
                   onClick={handleBeforeProjects}
                 />
-                <BsChevronDoubleRight size={30} onClick={handleNextProjects} />
+                <BsChevronDoubleRight
+                  className='mouseIsOver'
+                  size={30}
+                  onClick={handleNextProjects}
+                />
               </div>
             </div>
           ) : (
