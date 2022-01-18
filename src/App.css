@@ -63,6 +63,11 @@ body {
   text-decoration: none;
 }
 
+.content-word2 {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 .page-content {
   color: #fff;
   height: 100vh;
@@ -194,6 +199,14 @@ section h1 .content-line {
 }
 
 section h1 .content-line .content-word {
+  margin-right: 1.6vw;
+}
+
+section h1 .content-line .content-word2 {
+  margin-right: 0.8vw;
+}
+
+section h1 .content-line .content-word2 {
   margin-right: 1.6vw;
 }
 

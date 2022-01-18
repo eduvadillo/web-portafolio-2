@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "hireme.jpg",
+      "src": "ev.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "372x347"
     },
     {
-      "src": "hireme.jpgg",
+      "src": "ev.png",
       "type": "image/png",
       "sizes": "512x512"
     }

@@ -497,15 +497,15 @@ function App() {
                     <span className='color color-3'>t</span>
                   </div>
                   <div mode='out-in' className='content-line'>
-                    <div className='content-word color mouseIsOver'>
-                      <a
+                    <div className='content-word2 color mouseIsOver'>
+                      {/*                       <a
                         href='http://betandfriends.com'
                         target='_blank'
                         rel='noopener noreferrer'
                         className='page-hover'
-                      >
-                        BetAndFriends
-                      </a>
+                      > */}
+                      OpenToWork
+                      {/*  </a> */}
                       <span className='color color-5'>.</span>
                     </div>
                   </div>
