@@ -551,6 +551,11 @@ function App() {
               </div>
               <div className='right'>
                 {" "}
+                <BsChevronDoubleLeft
+                  className='left-icon'
+                  size={30}
+                  onClick={handleBeforeProjects}
+                />
                 <BsChevronDoubleRight size={30} onClick={handleNextProjects} />
               </div>
             </div>

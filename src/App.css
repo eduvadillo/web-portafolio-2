@@ -368,6 +368,10 @@ a {
   margin-left: 1rem;
 }
 
+.left-icon {
+  display: none;
+}
+
 /* mobile */
 
 @media (max-width: 450px) {
@@ -401,7 +405,7 @@ a {
     margin-bottom: 2rem;
   }
   .central {
-    margin-top: 6rem;
+    margin-top: 25rem;
   }
   .page-content-bet {
     width: 95%;
@@ -409,6 +413,19 @@ a {
   .projects-div {
     flex-direction: column;
     top: 9rem;
+  }
+  .left {
+    display: none;
+  }
+  .left-icon {
+    display: flex;
+    margin-right: 2vw;
+  }
+  .show-telon {
+    height: 150vh !important;
+  }
+  .description-container h1 {
+    text-align: center;
   }
 }
 
@@ -600,6 +617,9 @@ a {
     width: 0%;
   }
   50% {
+    width: 100%;
+  }
+  60% {
     width: 100%;
   }
   100% {
