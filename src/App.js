@@ -148,6 +148,8 @@ function App() {
 
       setTimeout(() => {
         setProjects(true);
+        setNone(true);
+        setMouse(true);
       }, 1000);
     }
 
@@ -157,6 +159,8 @@ function App() {
         setViewSection(`view-section`);
         setProjects(false);
         setProjectClassDiv(`projects-div`);
+        setNone(false);
+        setMouse(false);
       }, 1100);
     }
 
@@ -164,6 +168,8 @@ function App() {
       setViewSection(`no-section`);
       setTimeout(() => {
         setProjects(true);
+        setNone(true);
+        setMouse(true);
       }, 1000);
     }
   };

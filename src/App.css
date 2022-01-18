@@ -270,6 +270,15 @@ input:checked + .slider:before {
 
 .slider.round {
   border-radius: 34px;
+  cursor: pointer;
+}
+
+.right svg {
+  cursor: pointer;
+}
+
+.left svg {
+  cursor: pointer;
 }
 
 .projectClass {
