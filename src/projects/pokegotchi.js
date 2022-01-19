@@ -41,7 +41,13 @@ function Pokegotchi() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <img src={macbookPoke} className='photo' alt='betandfriends-home'></img>
+            <a
+              href='http://pokegotchi-challenge.herokuapp.com/'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <img src={macbookPoke} className='photo' alt='betandfriends-home'></img>
+            </a>
           ) : photoRequiere ? (
             <img src={macbookPoke2} className='photo' alt='betandfriends-league'></img>
           ) : (

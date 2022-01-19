@@ -41,7 +41,13 @@ function PracticeCss() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <img src={macbookCss} className='photo' alt='betandfriends-home'></img>
+            <a
+              href='http://eduvadillosite.herokuapp.com/'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <img src={macbookCss} className='photo' alt='betandfriends-home'></img>
+            </a>
           ) : photoRequiere ? (
             <img src={macbookCss2} className='photo' alt='betandfriends-league'></img>
           ) : (

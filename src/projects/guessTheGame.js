@@ -41,7 +41,13 @@ function GuessTheGame() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <img src={macbookGuess} className='photo' alt='betandfriends-home'></img>
+            <a
+              href='https://game-guess-the-number.herokuapp.com/'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <img src={macbookGuess} className='photo' alt='betandfriends-home'></img>
+            </a>
           ) : photoRequiere ? (
             <img src={macbookGuess2} className='photo' alt='betandfriends-league'></img>
           ) : (

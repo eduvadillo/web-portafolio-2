@@ -41,7 +41,13 @@ function Housfy() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <img src={macbookHousfy} className='photo' alt='betandfriends-home'></img>
+            <a
+              href='http://housfy-mars-challenge.herokuapp.com/'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <img src={macbookHousfy} className='photo' alt='betandfriends-home'></img>
+            </a>
           ) : photoRequiere ? (
             <img src={macbookHousfy2} className='photo' alt='betandfriends-league'></img>
           ) : (

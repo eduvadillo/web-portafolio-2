@@ -41,7 +41,9 @@ function Tribboo() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <img src={macbookTribboo} className='photo' alt='betandfriends-home'></img>
+            <a href='https://tribboo.herokuapp.com/' rel='noopener noreferrer' target='_blank'>
+              <img src={macbookTribboo} className='photo' alt='betandfriends-home'></img>
+            </a>
           ) : photoRequiere ? (
             <img src={macbookTribboo2} className='photo' alt='betandfriends-league'></img>
           ) : (

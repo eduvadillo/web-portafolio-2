@@ -41,7 +41,9 @@ function GreenJade() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <img src={macbookGreen} className='photo' alt='betandfriends-home'></img>
+            <a href='http://jadecoinflip.herokuapp.com/' rel='noopener noreferrer' target='_blank'>
+              <img src={macbookGreen} className='photo' alt='betandfriends-home'></img>
+            </a>
           ) : photoRequiere ? (
             <img src={macbookGreen2} className='photo' alt='betandfriends-league'></img>
           ) : (

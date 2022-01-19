@@ -284,8 +284,12 @@ input:checked + .slider:before {
 .projectClass {
   width: 3rem;
   height: 3rem;
-  border-radius: 62%;
-  background-color: white;
+  /*   border-radius: 62%;
+   background-color: white;  */
+}
+
+.projectClass a svg path {
+  stroke: var(--primary-color);
 }
 
 .projectIcon {
@@ -419,10 +423,6 @@ a {
     /* margin-left: -11rem; */
   }
 
-  .description h1 {
-    text-align: center;
-  }
-
   .description-button {
     margin-bottom: 2rem;
   }
@@ -446,14 +446,14 @@ a {
   .show-telon {
     height: 150vh !important;
   }
-  .description-container h1 {
-    text-align: center;
+  .description-container {
+    align-items: flex-start !important;
   }
 }
 
 @media (max-height: 650px) {
   .description-container {
-    height: 30rem;
+    height: 26rem;
   }
   .description-container h1 {
     text-align: center;

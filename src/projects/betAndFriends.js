@@ -52,7 +52,9 @@ function BetAndFriends() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <img src={macbook} className='photo' alt='betandfriends-home'></img>
+            <a href='http://betandfriends.com/' target='_blank' rel='noopener noreferrer'>
+              <img src={macbook} className='photo' alt='betandfriends-home'></img>{" "}
+            </a>
           ) : photoLeague ? (
             <img src={macbook2} className='photo' alt='betandfriends-league'></img>
           ) : (
