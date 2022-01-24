@@ -290,6 +290,20 @@ input:checked + .slider:before {
 
 .projectClass a svg path {
   stroke: var(--primary-color);
+  animation: animateProject 3s linear infinite;
+}
+
+@keyframes animateProject {
+  40% {
+    /*  border-right: 2px solid #01fe87; */
+    stroke: var(--primary-color);
+  }
+  50% {
+    stroke: yellow;
+  }
+  60% {
+    stroke: var(--primary-color);
+  }
 }
 
 .projectIcon {
@@ -385,12 +399,12 @@ a {
 }
 
 .icon-theme {
-  color: var(--primary-color);
+  color: var(--bg-color);
   margin-right: 1rem;
 }
 
 .icon-theme2 {
-  color: var(--primary-color);
+  color: var(--bg-color);
   margin-left: 1rem;
 }
 
@@ -558,6 +572,7 @@ a {
 
 #canvas {
   background-color: black;
+  cursor: none;
 }
 
 .no-section {
@@ -650,5 +665,86 @@ a {
 }
 
 header {
-  z-index: 300;
+  z-index: 1000;
+}
+
+.loadingGameContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  animation: animationContent 5s linear;
+}
+
+.leftLoadingGame {
+  width: 50vw;
+  height: 50vh;
+}
+
+.parLoading {
+  width: 50%;
+  background-color: var(--primary-color);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parLoading h1 {
+  color: var(--bg-color);
+  font-size: 20rem;
+  font-weight: 600;
+}
+
+.imparLoading {
+  display: flex;
+  width: 50%;
+  background-color: var(--bg-color);
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.imparLoading h1 {
+  color: var(--primary-color);
+  font-size: 20rem;
+  font-weight: 600;
+}
+
+#canvas {
+  background-color: #a2a2a200 !important;
+  position: absolute;
+  z-index: 500;
+}
+
+.puntuacion-div {
+  position: absolute;
+  left: 50%;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+  align-items: center;
+}
+
+.puntuacion-div h2 {
+  font-size: 35rem;
+  font-weight: 600;
+  color: var(--bg-color);
+}
+
+.gameNone {
+  background-color: #a2a2a200 !important;
+}
+
+.divCounter {
+  position: absolute;
+  left: 52%;
+  top: -8%;
+}
+
+.divCounter h1 {
+  font-size: 5rem;
+  color: var(--bg-color);
 }

@@ -14,6 +14,7 @@ import Housfy from "./projects/housfy";
 import GreenJade from "./projects/greenJade";
 import Pokegotchi from "./projects/pokegotchi";
 import Board from "./projects/game/board";
+import LoadingGame from "./projects/game/loadingGame";
 
 function App() {
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -35,6 +36,7 @@ function App() {
   const [viewSection, setViewSection] = useState(`yes-section`);
   const [projectClassDiv, setProjectClassDiv] = useState("projects-div");
   const [telon, setTelon] = useState("hide-telon");
+  const [loadingGame, setLoadingGame] = useState(true);
 
   useEffect(() => {
     addEventListeners();
@@ -357,6 +359,9 @@ function App() {
           style={{ left: `${position.x}px`, top: `${position.y}px` }}
           className={cursorClasses}
         ></div>
+
+        {/*   <LoadingGame />
+         */}
         {/*       <div className='canvas-div'>
         <Board />
       </div> */}
