@@ -41,7 +41,7 @@ function GreenJade() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <a href='http://jadecoinflip.herokuapp.com/' rel='noopener noreferrer' target='_blank'>
+            <a href='https://greenjade-games-coin-flip-deluxe.netlify.app' rel='noopener noreferrer' target='_blank'>
               <img src={macbookGreen} className='photo' alt='betandfriends-home'></img>
             </a>
           ) : photoRequiere ? (
@@ -54,15 +54,14 @@ function GreenJade() {
         </div>
         <div className='description-container'>
           <h1>
-            <a href='http://jadecoinflip.herokuapp.com/' rel='noopener noreferrer' target='_blank'>
+            <a href='https://greenjade-games-coin-flip-deluxe.netlify.app' rel='noopener noreferrer' target='_blank'>
               GreenJade Clone
             </a>
           </h1>
           <h3>Project description:</h3>
           <p>
-            This project has consisted of making a clone of the original page:
-            https://greenjade.com/games/coin-flip-deluxe/ without any reference and making it as
-            similar as possible.
+            This project has consisted of making a clone of the original page: https://greenjade.com/games/coin-flip-deluxe/ without any
+            reference and making it as similar as possible.
           </p>
           <h3> Technical description:</h3>
           <p>The web is developed in React.</p>

@@ -41,7 +41,7 @@ function Tribboo() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <a href='https://tribboo.herokuapp.com/' rel='noopener noreferrer' target='_blank'>
+            <a href='https://tribboochallenge.netlify.app' rel='noopener noreferrer' target='_blank'>
               <img src={macbookTribboo} className='photo' alt='betandfriends-home'></img>
             </a>
           ) : photoRequiere ? (
@@ -54,15 +54,14 @@ function Tribboo() {
         </div>
         <div className='description-container'>
           <h1>
-            <a href='https://tribboo.herokuapp.com/' rel='noopener noreferrer' target='_blank'>
+            <a href='https://tribboochallenge.netlify.app' rel='noopener noreferrer' target='_blank'>
               Tribboo Challenge
             </a>
           </h1>
           <h3>Project description:</h3>
           <p>
-            Tribbo Challenge has been the technical test to work for the StartUp Tribbo. Given an
-            image in pdf, I had to make a web and with a Json file simulating a database, show and
-            order the tasks.
+            Tribbo Challenge has been the technical test to work for the StartUp Tribbo. Given an image in pdf, I had to make a web and with
+            a Json file simulating a database, show and order the tasks.
           </p>
           <h3> Technical description:</h3>
           <p>Web developed in React.</p>

@@ -41,11 +41,7 @@ function PracticeCss() {
         <div className='photos-container'>
           {/*  <AiOutlineLeft className='svg-responsive' size={25} onClick={handlePhotoProjectLeft} /> */}
           {photoHome ? (
-            <a
-              href='http://eduvadillosite.herokuapp.com/'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
+            <a href='https://mysocialseduvadillo.netlify.app' rel='noopener noreferrer' target='_blank'>
               <img src={macbookCss} className='photo' alt='betandfriends-home'></img>
             </a>
           ) : photoRequiere ? (
@@ -58,28 +54,18 @@ function PracticeCss() {
         </div>
         <div className='description-container'>
           <h1>
-            <a
-              href='http://eduvadillosite.herokuapp.com/'
-              rel='noopener noreferrer'
-              target='_blank'
-            >
+            <a href='https://mysocialseduvadillo.netlify.app' rel='noopener noreferrer' target='_blank'>
               My Socials
             </a>
           </h1>
           <h3>Project description:</h3>
           <p>
-            My Socials is a project that aims to practice CSS and show my different social networks.
-            There are 3 web models visible to the user, all of them show my social networks with a
-            different design. In each reload it shows a different interface thanks to the Back. I
-            discarded the random mode to see all the options more easily. Creation of a quite
-            original loader.
+            My Socials is a project that aims to practice CSS and show my different social networks. There are 3 web models visible to the
+            user, all of them show my social networks with a different design. In each reload it shows a different interface thanks to the
+            Back. I discarded the random mode to see all the options more easily. Creation of a quite original loader.
           </p>
           <h3> Technical description:</h3>
-          <p>
-            {" "}
-            Web application made with a MERN stack. Back developed with Node Js, Express and Mongo
-            DB. Front with React.
-          </p>
+          <p> Web application made with a MERN stack. Back developed with Node Js, Express and Mongo DB. Front with React.</p>
         </div>
       </>
     </div>
