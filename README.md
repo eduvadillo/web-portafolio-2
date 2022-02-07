@@ -1,6 +1,6 @@
 # EduVadi Web & Portafolio
 
-First version of the website, created with React
+[Live version 🖥](https://eduvadiportafolio.netlify.app/)
 
 ### `Available projects`
 

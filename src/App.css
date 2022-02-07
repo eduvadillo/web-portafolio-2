@@ -32,8 +32,7 @@ body {
   mix-blend-mode: difference;
   /* transition: all 150ms ease;
   transition-property: opacity, background-color, transform, mix-blend-mode; */
-  transition: transform 0.2s cubic-bezier(0.64, 0.57, 0.67, 1.53),
-    -webkit-transform 0.2s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+  transition: transform 0.2s cubic-bezier(0.64, 0.57, 0.67, 1.53), -webkit-transform 0.2s cubic-bezier(0.64, 0.57, 0.67, 1.53);
   animation: animationContent 5s linear;
 }
 
@@ -399,12 +398,12 @@ a {
 }
 
 .icon-theme {
-  color: var(--bg-color);
+  color: var(--primary-color);
   margin-right: 1rem;
 }
 
 .icon-theme2 {
-  color: var(--bg-color);
+  color: var(--primary-color);
   margin-left: 1rem;
 }
 
